@@ -4640,7 +4640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: startingTime
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.size
@@ -4648,27 +4648,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2070726878}
+      objectReference: {fileID: 2070726879}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: InteractableGeneral, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
+      propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Museum Scene part2
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -4677,10 +4681,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9013105215673109258, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
 --- !u!1 &807675098
 GameObject:
@@ -5758,7 +5759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: startingTime
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7404640443726430561, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: onClockZero.m_PersistentCalls.m_Calls.Array.size
@@ -5795,10 +5796,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 9013105215673109258, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
 --- !u!1001 &967909931
 PrefabInstance:
@@ -11450,7 +11448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 85.75
+      value: 85.27
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11501,7 +11499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2070726879
 MonoBehaviour:
   m_ObjectHideFlags: 0
