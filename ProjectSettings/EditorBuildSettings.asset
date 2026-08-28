@@ -14,13 +14,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/EZPZ b) Examples/a) Standalone Example Scenes/01 Item Cycling.unity
     guid: 7ecc1225d74d4454aad820312b981b7c
-  - enabled: 1
+  - enabled: 0
     path: Assets/DDES9903_A1_Alaa Alshehri/Museum Scene part1.unity
     guid: 2c7bf4f118b06774ea79f3b109b7724e
-  - enabled: 1
+  - enabled: 0
     path: Assets/DDES9903_A1_Alaa Alshehri/Museum Scene part2.unity
     guid: 50558ea8db5cff34ea6e3a892ba43b70
-  - enabled: 1
+  - enabled: 0
     path: Assets/DDES9903_A1_Alaa Alshehri/Room Scene.unity
     guid: 7018265ac468c98448cb7b3a2a9e036c
   - enabled: 1
@@ -32,6 +32,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/DDES9903_A1_Alaa Alshehri/Office scene 2.unity
     guid: 8bf26fa27fe74904fa4cf14dae33f8cd
+  - enabled: 1
+    path: Assets/DDES9903_A1_Alaa Alshehri/Jail scene.unity
+    guid: f1475db61a7e86541b21a08f4be36f0c
+  - enabled: 1
+    path: Assets/DDES9903_A1_Alaa Alshehri/Get home scene after put back.unity
+    guid: 2ece4b4c215610049ac3ea3f40634407
+  - enabled: 1
+    path: Assets/DDES9903_A1_Alaa Alshehri/Get home scene after run.unity
+    guid: 45eed044f2a587b40bbc44b3d8177298
+  - enabled: 1
+    path: Assets/DDES9903_A1_Alaa Alshehri/Get home scene after leave it.unity
+    guid: b332f3bcb79f1b04996cd1078dc2cec0
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
